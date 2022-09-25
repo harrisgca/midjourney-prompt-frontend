@@ -1,10 +1,14 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom';
 import HomePage from '../HomePage';
 
 describe('<HomePage>', () => {
   it('should render text', () => {
-    render(<HomePage />);
-    expect(screen.getByText('This is the home page!', { exact: false })).toBeInTheDocument();
+    render(
+      <BrowserRouter>
+        <HomePage />
+      </BrowserRouter>,
+    );
+    expect(screen.getAllByText('This is the home page!', { exact: false }).length).toBeGreaterThanOrEqual(1);
   });
 });
