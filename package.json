@@ -5,7 +5,7 @@
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^6.3.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -25,9 +25,8 @@
     "css-minimizer-webpack-plugin": "^3.2.0",
     "dotenv": "^10.0.0",
     "dotenv-expand": "^5.1.0",
-    "eslint": "^8.3.0",
     "eslint-config-react-app": "^7.0.1",
-    "eslint-webpack-plugin": "^3.1.1",
+    "eslint-webpack-plugin": "^3.2.0",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "html-webpack-plugin": "^5.5.0",
@@ -60,19 +59,15 @@
     "webpack": "^5.64.4",
     "webpack-dev-server": "^4.6.0",
     "webpack-manifest-plugin": "^4.0.2",
-    "workbox-webpack-plugin": "^6.4.1"
+    "workbox-webpack-plugin": "^6.4.1",
+    "zustand": "^4.1.1"
   },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "lint-staged": "lint-staged --allow-empty"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "lint-staged": "lint-staged --allow-empty",
+    "lint": "eslint --ignore-path .gitignore --ignore-path .eslintignore --ext .js,.ts,.tsx ."
   },
   "browserslist": {
     "production": [
@@ -146,6 +141,10 @@
     "lint-staged"
   ],
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.24.0",
+    "eslint-plugin-react": "^7.31.8",
     "lint-staged": "^13.0.3",
     "pre-commit": "^1.2.2",
     "prettier": "2.7.1"

@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:@typescript-eslint/recommended"],
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "prefer-destructuring": 1
+  }
+}

@@ -1,6 +1,8 @@
 {
   "**/*.+(ts|scss|tsx)": [
     "prettier --write",
+    "npm run lint",
+    "bash -c tsc",
     "jest --findRelatedTests"
   ]
 }

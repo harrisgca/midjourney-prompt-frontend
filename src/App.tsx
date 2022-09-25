@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const obj = { one: 1, two: 2 };
+  const one = obj.one;
+  console.log();
   return (
     <div className="App">
       <header className="App-header">
