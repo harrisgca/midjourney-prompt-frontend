@@ -19,6 +19,7 @@
     "paths": {
       "*": ["./*"],
       "@components/*": ["./src/components/*"],
+      "@global/*": ["./src/global/*"],
       "@utils/*": ["./src/utils/*"],
       "@lib/*": ["./src/lib/*"],
       "@hooks/*": ["./src/hooks/*"],

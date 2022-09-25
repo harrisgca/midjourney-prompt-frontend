@@ -8,6 +8,7 @@
         "extensions": [".js", ".jsx", ".ts", ".tsx"],
         "alias": {
           "@components": "./src/components",
+          "@global": "./src/global",
           "@utils": "./src/utils",
           "@integrations": "./src/integrations",
           "@hooks": "./src/hooks",
