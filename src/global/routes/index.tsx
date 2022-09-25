@@ -1,16 +1,17 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
-import App from '@components/App';
+import HomePage from '@features/HomePage';
+import ConfigPage from '@features/ConfigPage';
 import { Routes } from './routes';
 
 const router = createBrowserRouter([
   {
     path: Routes.HOME(),
-    element: <App />,
+    element: <HomePage />,
   },
   {
     path: Routes.CONFIG(),
-    element: <div>config route</div>,
+    element: <ConfigPage />,
   },
   {
     path: '*',

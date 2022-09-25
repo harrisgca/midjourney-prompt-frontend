@@ -1,0 +1,36 @@
+$typeface: Helvetica, Arial;
+
+*,
+::before,
+::after {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  font-family: $typeface;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  input,
+  button,
+  textarea {
+    font-family: $typeface;
+  }
+}
+
+#root {
+  min-height: 100%;
+  height: 100%;
+  background-color: white;
+}

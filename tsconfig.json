@@ -20,6 +20,7 @@
       "*": ["./*"],
       "@components/*": ["./src/components/*"],
       "@global/*": ["./src/global/*"],
+      "@features/*": ["./src/features/*"],
       "@utils/*": ["./src/utils/*"],
       "@lib/*": ["./src/lib/*"],
       "@hooks/*": ["./src/hooks/*"],
