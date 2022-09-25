@@ -1,0 +1,5 @@
+{
+  "**/*.+(ts|scss|tsx)": [
+    "prettier --write"
+  ]
+}
