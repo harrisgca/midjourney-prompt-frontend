@@ -1,5 +1,6 @@
 {
   "**/*.+(ts|scss|tsx)": [
-    "prettier --write"
+    "prettier --write",
+    "jest --findRelatedTests"
   ]
 }

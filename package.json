@@ -65,7 +65,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "lint-staged": "lint-staged --allow-empty"
   },
   "eslintConfig": {
     "extends": [
@@ -141,8 +142,12 @@
       "react-app"
     ]
   },
+  "pre-commit": [
+    "lint-staged"
+  ],
   "devDependencies": {
     "lint-staged": "^13.0.3",
+    "pre-commit": "^1.2.2",
     "prettier": "2.7.1"
   }
 }
