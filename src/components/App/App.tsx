@@ -1,11 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './app.scss';
 
 const App = () => {
-  const obj = { one: 1, two: 2 };
-  const one = obj.one;
-  console.log();
   return (
     <div className="App">
       <header className="App-header">
