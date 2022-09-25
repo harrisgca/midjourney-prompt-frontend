@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = () => {
   const obj = { one: 1, two: 2 };
   const one = obj.one;
   console.log();
@@ -19,6 +19,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;

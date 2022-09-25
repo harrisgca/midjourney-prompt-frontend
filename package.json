@@ -33,7 +33,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
     "jest-resolve": "^27.4.2",
-    "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
     "postcss": "^8.4.4",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -132,19 +131,16 @@
     ],
     "resetMocks": true
   },
-  "babel": {
-    "presets": [
-      "react-app"
-    ]
-  },
   "pre-commit": [
     "lint-staged"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^8.24.0",
     "eslint-plugin-react": "^7.31.8",
+    "jest-watch-typeahead": "^0.6.5",
     "lint-staged": "^13.0.3",
     "pre-commit": "^1.2.2",
     "prettier": "2.7.1"
