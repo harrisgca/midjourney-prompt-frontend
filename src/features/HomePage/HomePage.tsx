@@ -34,6 +34,33 @@ const HomePage = () => {
       <p>This is the home page!</p>
       <p>This is the home page!</p>
       <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
+      <p>This is the home page!</p>
     </div>
   );
 };
