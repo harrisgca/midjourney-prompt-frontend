@@ -1,5 +1,18 @@
+@import 'src/styles/global/_mixins.scss';
+
 .header {
   position: sticky;
   top: 0;
-  padding: 16px 0;
+  padding: 16px 16px;
+}
+
+.left {
+  text-align: center;
+  @include with-sm-grid {
+    text-align: left;
+  }
+}
+
+.right {
+  justify-content: center;
 }

@@ -1,0 +1,12 @@
+@import 'src/styles/global/_variables.scss';
+
+@mixin with-sm-grid() {
+  @media screen and (min-width: $grid-sm-breakpoint) {
+    @content;
+  }
+}
+@mixin with-md-grid() {
+  @media screen and (min-width: $grid-md-breakpoint) {
+    @content;
+  }
+}
