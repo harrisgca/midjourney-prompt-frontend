@@ -1,19 +1,11 @@
 import { ProviderWrapper } from '@global/tests/utils';
-import { render, renderHook, screen, waitFor } from '@testing-library/react';
-import useFetchCategories, { useCustomHook } from '@queries/categories/useFetchCategories';
-import { server } from '@tests/msw/server';
+import { renderHook, waitFor } from '@testing-library/react';
+import useFetchCategories from '@queries/categories/useFetchCategories';
+import { mswJestSetup } from '@tests/msw/server';
 import categories1 from '@tests/fixtures/categories.1.json';
 
 describe('useFetchCategories()', () => {
-  beforeAll(() =>
-    server.listen({
-      onUnhandledRequest(req) {
-        console.error('Found an unhandled %s request to %s', req.method, req.url.href);
-      },
-    }),
-  );
-  afterEach(() => server.resetHandlers());
-  afterAll(() => server.close());
+  mswJestSetup();
 
   it('should return the list of categories on fetch', async () => {
     const { result } = renderHook(useFetchCategories, { wrapper: ProviderWrapper });

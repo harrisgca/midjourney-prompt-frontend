@@ -1,0 +1,282 @@
+{
+  "status": 404,
+  "error": "Not Found",
+  "exception": "#<ActionController::RoutingError: No route matches [GET] \"/api/v1/categorieZ\">",
+  "traces": {
+    "Application Trace": [],
+    "Framework Trace": [
+      {
+        "exception_object_id": 23240,
+        "id": 0,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 1,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 2,
+        "trace": "railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 3,
+        "trace": "railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 4,
+        "trace": "activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 5,
+        "trace": "activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 6,
+        "trace": "activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 7,
+        "trace": "railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 8,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 9,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 10,
+        "trace": "rack (2.2.4) lib/rack/runtime.rb:22:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 11,
+        "trace": "activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 12,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 13,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 14,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 15,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 16,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 17,
+        "trace": "rack (2.2.4) lib/rack/sendfile.rb:110:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 18,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 19,
+        "trace": "rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 20,
+        "trace": "railties (7.0.4) lib/rails/engine.rb:530:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 21,
+        "trace": "puma (5.6.5) lib/puma/configuration.rb:252:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 22,
+        "trace": "puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 23,
+        "trace": "puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 24,
+        "trace": "puma (5.6.5) lib/puma/request.rb:76:in `handle_request'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 25,
+        "trace": "puma (5.6.5) lib/puma/server.rb:443:in `process_client'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 26,
+        "trace": "puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'"
+      }
+    ],
+    "Full Trace": [
+      {
+        "exception_object_id": 23240,
+        "id": 0,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 1,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 2,
+        "trace": "railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 3,
+        "trace": "railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 4,
+        "trace": "activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 5,
+        "trace": "activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 6,
+        "trace": "activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 7,
+        "trace": "railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 8,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 9,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 10,
+        "trace": "rack (2.2.4) lib/rack/runtime.rb:22:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 11,
+        "trace": "activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 12,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 13,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 14,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 15,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 16,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 17,
+        "trace": "rack (2.2.4) lib/rack/sendfile.rb:110:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 18,
+        "trace": "actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 19,
+        "trace": "rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 20,
+        "trace": "railties (7.0.4) lib/rails/engine.rb:530:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 21,
+        "trace": "puma (5.6.5) lib/puma/configuration.rb:252:in `call'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 22,
+        "trace": "puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 23,
+        "trace": "puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 24,
+        "trace": "puma (5.6.5) lib/puma/request.rb:76:in `handle_request'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 25,
+        "trace": "puma (5.6.5) lib/puma/server.rb:443:in `process_client'"
+      },
+      {
+        "exception_object_id": 23240,
+        "id": 26,
+        "trace": "puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'"
+      }
+    ]
+  }
+}
