@@ -10,6 +10,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^6.3.1",
     "@tanstack/react-query": "^4.6.1",
+    "@tanstack/react-query-devtools": "^4.6.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -99,6 +100,7 @@
     "jest-resolve": "29.0.3",
     "jest-watch-typeahead": "^2.2.0",
     "lint-staged": "^13.0.3",
+    "msw": "^0.47.3",
     "pre-commit": "^1.2.2",
     "prettier": "2.7.1",
     "ts-jest": "^29.0.2"

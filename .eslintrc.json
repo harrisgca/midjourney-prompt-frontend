@@ -13,6 +13,7 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "prefer-destructuring": 1,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/no-explicit-any": 0
   }
 }

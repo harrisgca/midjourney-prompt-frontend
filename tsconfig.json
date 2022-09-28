@@ -29,7 +29,9 @@
       "@store/*": ["./src/store/*"],
       "@styles/*": ["./src/styles/*"],
       "@public/*": ["./public/*"],
-      "@integrations/*": ["./src/integrations/*"]
+      "@integrations/*": ["./src/integrations/*"],
+      "@queries/*": ["./src/queries/*"],
+      "@tests/*": ["./src/global/tests/*"]
     }
   }
 }

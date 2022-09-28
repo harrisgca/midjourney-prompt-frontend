@@ -15,11 +15,12 @@
           "@hooks": "./src/hooks",
           "@constants": "./src/constants",
           "@contexts": "./src/contexts",
-          "@scenes": "./src/scenes",
           "@types": "./src/types",
           "@store": "./src/store",
           "@styles": "./src/styles",
-          "@public": "./public"
+          "@public": "./public",
+          "@queries": "./src/queries",
+          "@tests": "./src/global/tests"
         }
       }
     ]
