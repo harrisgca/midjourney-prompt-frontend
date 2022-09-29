@@ -1,0 +1,13 @@
+.card {
+  min-width: 12rem;
+  padding: 1rem 2rem;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}

@@ -1,4 +1,5 @@
 import { RouterProvider } from 'react-router-dom';
+import cn from 'classnames';
 import router from '@global/routes';
 import useAppThemeStyles from '@hooks/useAppThemeStyles';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -19,7 +20,7 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <AppNotification />
-      <div className={appThemeStyles}>
+      <div className={cn(appThemeStyles, 'fullHeight')}>
         <Header />
         <RouterProvider router={router} />
       </div>

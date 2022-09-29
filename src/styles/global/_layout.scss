@@ -1,0 +1,8 @@
+@import 'src/styles/global/_mixins.scss';
+
+.defaultGridPadding {
+  padding: 16px;
+  @include with-md-grid {
+    padding: 24px;
+  }
+}

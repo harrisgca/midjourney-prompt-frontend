@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "text": "red",
+    "category": {
+      "id": 1,
+      "text": "colors"
+    }
+  },
+  {
+    "id": 2,
+    "text": "blue",
+    "category": {
+      "id": 1,
+      "text": "colors"
+    }
+  },
+  {
+    "id": 3,
+    "text": "Andy Warhol",
+    "category": {
+      "id": 2,
+      "text": "artists"
+    }
+  },
+  {
+    "id": 4,
+    "text": "Carne Griffiths",
+    "category": {
+      "id": 2,
+      "text": "artists"
+    }
+  }
+]
