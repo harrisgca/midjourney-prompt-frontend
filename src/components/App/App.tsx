@@ -1,16 +1,24 @@
 import { RouterProvider } from 'react-router-dom';
 import router from '@global/routes';
-import Header from '@components/Header';
 import useAppThemeStyles from '@hooks/useAppThemeStyles';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import Header from '@components/Header';
+import { AppNotification } from '@components/Notification';
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      retry: false,
+    },
+  },
+});
 
 const App = () => {
   const appThemeStyles = useAppThemeStyles();
   return (
     <QueryClientProvider client={queryClient}>
+      <AppNotification />
       <div className={appThemeStyles}>
         <Header />
         <RouterProvider router={router} />
