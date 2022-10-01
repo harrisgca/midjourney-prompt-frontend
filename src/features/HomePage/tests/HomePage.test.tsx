@@ -27,5 +27,6 @@ describe('<HomePage>', () => {
       const element = categories1[index];
       expect(await screen.findByText(element.text)).toBeInTheDocument();
     }
+    screen.debug();
   });
 });
