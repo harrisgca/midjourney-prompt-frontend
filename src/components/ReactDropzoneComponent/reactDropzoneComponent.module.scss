@@ -1,0 +1,13 @@
+.container {
+  margin-top: 2rem;
+  height: 4rem;
+  border: 5px dashed darkgray;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &.active {
+    border-color: lightgreen;
+  }
+}

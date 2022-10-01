@@ -12,7 +12,8 @@ import { Prompt } from '@global/types/Prompt.types';
 // Components
 import Grid from '@mui/material/Unstable_Grid2';
 import { CategoryCard, CategoryCardContainer } from '@components/CategoryCard';
-import FileDropTarget from '@components/FileDropTarget';
+// import FileDropTarget from '@components/FileDropTarget';
+import ReactDropzoneComponent from '@components/ReactDropzoneComponent';
 
 type CategoryAndQty = { [key: string]: number };
 const HomePage = () => {
@@ -59,7 +60,8 @@ const HomePage = () => {
             <CategoryCard text={category} key={i} />
           ))}
         </CategoryCardContainer>
-        <FileDropTarget />
+        {/* <FileDropTarget /> */}
+        <ReactDropzoneComponent />
       </Grid>
     </Grid>
   );
