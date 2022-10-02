@@ -6,6 +6,8 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import Header from '@components/Header';
 import { AppNotification } from '@components/Notification';
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
+import 'react-toastify/dist/ReactToastify.css';
 
 const queryClient = new QueryClient({
   defaultOptions: {
