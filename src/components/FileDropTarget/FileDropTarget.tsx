@@ -48,7 +48,7 @@ const FileDropTarget = () => {
         {/* @ts-expect-error because */}
         <input onChange={onFileInputChange} ref={fileInputRef} type="file" className={styles.input} multiple />
       </div>
-      <UploaderThumbnails images={files} />
+      <UploaderThumbnails files={files} />
     </>
   );
 };

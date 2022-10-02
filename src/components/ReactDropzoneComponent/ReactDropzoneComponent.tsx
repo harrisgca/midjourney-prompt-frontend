@@ -31,6 +31,28 @@ function ReactDropzoneComponent() {
     setIsClickActive(true);
     open();
   };
+  const handleUpload = async () => {
+    console.log('upload files');
+    for (let index = 0; index < files.length; index++) {
+      const element = files[index];
+      const body = new FormData();
+      body.append('image', element);
+
+      try {
+        const uploadResponse = await fetch('https://httpbin.org/post', {
+          method: 'POST',
+          body,
+        });
+        const glenn = await uploadResponse.json();
+        console.log('uploadResponse', uploadResponse);
+        console.log('glenn', glenn, glenn?.files?.image);
+        window.open(glenn?.files?.image)?.focus();
+      } catch (error) {
+        console.log('error? -> ', error);
+      }
+    }
+  };
+
   const handleClickOutside = () => (isClickActive ? setIsClickActive(false) : null);
   useOutsideClick(wrapperRef, handleClickOutside);
 
@@ -50,7 +72,10 @@ function ReactDropzoneComponent() {
         <input {...inputProps} />
         {isDragActive ? <p>Drop the files here ...</p> : <p>Drag and drop some files here, or click to select files</p>}
       </div>
-      <UploaderThumbnails images={files} />
+      <UploaderThumbnails files={files} />
+      <button type="button" onClick={handleUpload}>
+        Upload
+      </button>
     </div>
   );
 }
