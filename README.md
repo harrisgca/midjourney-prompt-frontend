@@ -11,3 +11,5 @@ Things to take note of for future reference
 - ESLint rules
 - Project setup in general
 - Might be some useful stuff in the tests
+
+See https://github.com/harrisgca/midjourney-prompt-backend for the BE
